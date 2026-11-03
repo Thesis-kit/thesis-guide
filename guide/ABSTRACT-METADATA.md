@@ -2,6 +2,7 @@
 
 The first file, [input/00-abstract.md](../input/00-abstract.md), contains the thesis metadata and English abstract. Metadata supplies the cover, student details and abstract header. The chapters remain regular Markdown.
 
+
 ## Fill in the first file
 
 Keep metadata between the two `---` lines at the beginning of the file. Replace the example values:

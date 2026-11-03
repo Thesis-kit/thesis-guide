@@ -1,7 +1,7 @@
 # References and citations
 
 Define all sources in [input/20-references.md](../input/20-references.md). Cite them in the chapters using stable keys. The pipeline automatically assigns numbers in order of first citation.
-
+ 
 ## Define a source once
 
 Each reference starts with `- [@key]`, followed by its complete bibliographic details:

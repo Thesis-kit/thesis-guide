@@ -2,6 +2,7 @@
 
 Write the thesis as ordinary Markdown: headings, paragraphs, lists, emphasis and links. The example files in [input](../input) show these forms in context. The PDF pipeline supplies the university layout, contents, numbering and page styles.
 
+
 ## Files and reading order
 
 Keep chapter files directly inside `input/`, and images and supporting files in `input/assets/`. Save text files as UTF-8. Filename prefixes determine reading order; the prefixes are not printed as chapter numbers.
