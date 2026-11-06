@@ -270,7 +270,7 @@ Add no new evidence, interpretation, analysis, or recommendations. The Summary c
 
 ### References
 
-Use the repository’s keyed bibliography format, which produces numbered citations and references. Write complete reference details consistently in the required Vancouver style. Cite external claims, paraphrases and reused material properly, and verify bibliographic details against the source. Define each source once in `input/20-references.md` and cite its key in the text; see [References and Citations](REFERENCES.md) for examples.
+Use the repository’s keyed bibliography format, which produces numbered citations and references. Write complete reference details consistently in the required Vancouver style. Cite external claims, paraphrases and reused material properly, and verify bibliographic details against the source. Define each source once in `input/80-references.md` and cite its key in the text; see [References and Citations](REFERENCES.md) for examples.
 
 Keep References unnumbered in the chapter structure. The number of preliminary sources in a proposal is not a sufficient-source quota for the completed thesis; coverage and quality must support your actual argument.
 

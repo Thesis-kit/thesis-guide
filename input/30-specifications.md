@@ -1,5 +1,24 @@
 # Current State Analysis and Project Specifications
 
+The following sequence illustrates the intended handling of a repeated event. It represents the protected design's expected interaction, not a captured execution trace.
+
+```mermaid caption="Illustrative handling of an initial event and a retry." width="0.95"
+sequenceDiagram
+    participant Client
+    participant Service
+    participant Database
+    Client->>Service: Submit event E1
+    Service->>Database: Insert unique event E1
+    Database-->>Service: Event stored
+    Service-->>Client: Accepted
+    Client->>Service: Retry event E1
+    Service->>Database: Look up event E1
+    Database-->>Service: Existing event
+    Service-->>Client: Return existing result
+```
+
+The second submission should reuse the existing identity. Transaction and concurrency guarantees still require the checks described later in the thesis.
+
 
 The scenario assumed that a campus sender retried an event when no response arrived within its timeout. The baseline stored every accepted submission with a new internal row identifier, even if the sender supplied an identity already encountered.
 

@@ -4,6 +4,8 @@ This repository contains a sample thesis in Markdown and guides for preparing a 
 
 The [`pdf/`](pdf/) directory contains [sample PDF output](pdf/thesis.pdf), showing how the manuscript appears after processing with the thesis pipeline.
 
+Chapter filenames use `10-` for Chapter 1, `20-` for Chapter 2, through `70-` for Chapter 7. References use `80-` and appendices use `90-`, `91-` and `92-`. These prefixes control reading order; heading numbers are generated automatically.
+
 The `guide/` directory contains:
 
 - [Writing chapters](guide/CHAPTERS.md): section content, regular Markdown syntax, figures, tables, code and mathematics.

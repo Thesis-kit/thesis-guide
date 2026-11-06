@@ -15,14 +15,14 @@ Keep chapter files directly inside `input/`, and images and supporting files in 
 | `01-preface.md` | Optional acknowledgements and personal context. Keep research findings in the main chapters. |
 | `02-abbreviations.md` | Abbreviations actually used in the thesis, with their meanings. |
 | `10-introduction.md` | Problem, context, motivation, objective, research questions, intended contribution, scope and thesis structure. Explain deliberate exclusions in a Scope and Delimitations subsection. |
-| `11-method.md` | Research design, material or data, selection, collection, tools, analysis and evaluation procedure. Explain reliability, validity and ethical considerations. Distinguish planned checks from checks actually performed. |
-| `12-specifications.md` | Current situation and evidence of needs. Derive requirements, constraints and measurable acceptance criteria from that evidence. |
-| `13-theory.md` | Relevant concepts, previous work and technical foundations. Compare sources and explain how they inform the design or analysis. |
-| `14-results.md` | Developed solution or findings, design decisions, implementation where relevant, evaluation method and evidence. Explain figures/tables and distinguish measured results from assumptions. |
-| `15-discussion.md` | Interpret findings, answer research questions, relate results to earlier work, assess limitations and give justified conclusions and recommendations. Distinguish study limitations from intentional scope exclusions. |
-| `16-summary.md` | Concise factual recap of the problem, approach, main findings and contribution. Avoid introducing new results or arguments. |
-| `20-references.md` | One keyed bibliography. See [references and citations](REFERENCES.md). |
-| `30-appendix-a.md` and later appendix files | Supporting material mentioned in the body: detailed data, protocols, extended tables or code. Retain the main argument in the chapters. |
+| `20-method.md` | Research design, material or data, selection, collection, tools, analysis and evaluation procedure. Explain reliability, validity and ethical considerations. Distinguish planned checks from checks actually performed. |
+| `30-specifications.md` | Current situation and evidence of needs. Derive requirements, constraints and measurable acceptance criteria from that evidence. |
+| `40-theory.md` | Relevant concepts, previous work and technical foundations. Compare sources and explain how they inform the design or analysis. |
+| `50-results.md` | Developed solution or findings, design decisions, implementation where relevant, evaluation method and evidence. Explain figures/tables and distinguish measured results from assumptions. |
+| `60-discussion.md` | Interpret findings, answer research questions, relate results to earlier work, assess limitations and give justified conclusions and recommendations. Distinguish study limitations from intentional scope exclusions. |
+| `70-summary.md` | Concise factual recap of the problem, approach, main findings and contribution. Avoid introducing new results or arguments. |
+| `80-references.md` | One keyed bibliography. See [references and citations](REFERENCES.md). |
+| `90-appendix-a.md` and later appendix files | Supporting material mentioned in the body: detailed data, protocols, extended tables or code. Retain the main argument in the chapters. |
 
 These are the sample's chapter functions, not a requirement to reproduce its fictional project. Adapt the structure with your supervisor. For bachelor work, explain the practical problem, engineering work and evidence of its outcome. For master work, make the research questions, methodological justification, evaluation and contribution especially clear. Use actual evidence and identify proposed or illustrative material honestly.
 

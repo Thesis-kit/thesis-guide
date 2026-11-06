@@ -28,6 +28,20 @@ The latency material contained five paired run-level p95 values per variant at a
 
 ## Ethics and Reproduction Protocol
 
+The conceptual diagram separates specification coverage from observed evidence. Their overlap represents checks that have both a defined criterion and an auditable outcome; it does not quantify coverage in this synthetic example.
+
+```mermaid caption="Conceptual overlap between specifications and evidence." width="0.85"
+venn-beta
+    title Specification and evidence
+    set Specification
+    set Evidence
+    union Specification,Evidence["Checked criteria"]
+    style Specification fill:#DCEAF7,stroke:#24527A,color:#17212B
+    style Evidence fill:#E4F1DD,stroke:#3D6B2A,color:#17212B
+```
+
+An item in either circle alone would require further work before it could support a validated claim. This diagram is a conceptual illustration rather than a measurement.
+
 
 No participants, institutional records or production endpoints were used. Tenant IDs and event IDs were fictional, and examples contained no authentication secrets or personal attributes. No ethics approval, consent process or organizational endorsement was asserted.
 
